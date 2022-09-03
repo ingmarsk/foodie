@@ -6,6 +6,7 @@ PATH
       aruba
       cucumber
       rspec (~> 3.11)
+      thor
 
 GEM
   remote: https://rubygems.org/
