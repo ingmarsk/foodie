@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
-# To load this file, we’ll need to add a require line to lib/foodie.rb for it:
+require 'active_support/inflector'
 
+# To load this file, we’ll need to add a require line to 'lib/foodie.rb'
 module Foodie
   class Food
     def self.portray(food)
@@ -10,6 +11,10 @@ module Foodie
       else
         'Delicious!'
       end
+    end
+
+    def self.pluralize(word)
+      word.pluralize
     end
   end
 end
