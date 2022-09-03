@@ -6,7 +6,7 @@ require_relative "lib/foodie/version"
 # description and homepage of our gem. This is also where we specify the dependencies our gem needs to run.
 
 Gem::Specification.new do |spec|
-  spec.name          = "foodie"
+  spec.name          = "foodie-ingmarsk"
   spec.version       = Foodie::VERSION
   spec.authors       = ["Ingemar Andrade"]
   spec.email         = ["ingmar.lbs@gmail.com"]
